@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class hello extends ListActivity {
     String[] categories = { "Lorem", "ipsum", "dolor", "foo","bar","baz" };
@@ -20,7 +21,7 @@ public class hello extends ListActivity {
 
     @Override
     protected void onListItemClick(android.widget.ListView l, View v, int position, long id) {
-
+    	Toast.makeText(hello.this,categories[position], Toast.LENGTH_SHORT).show();
     };
 
     class CategoryAdapter extends ArrayAdapter<String> {

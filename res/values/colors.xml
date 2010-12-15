@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="category_bg_color">#eeeeee</color>
+    <color name="category_name_color">#ffffff</color>
+    <color name="separator_bg_color">#525252</color>
+    <color name="separator_text_color">#efefef</color>
+</resources>

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.roosterpirates;
+package com.roosterpirates.ripe;
 
 public final class R {
     public static final class attr {
